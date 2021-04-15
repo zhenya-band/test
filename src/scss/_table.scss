@@ -1,0 +1,23 @@
+.table-wrapper {
+    color: #ffffff;
+    border: 1px solid;
+    border-image: linear-gradient(270deg, rgba(106, 201, 222, 1) 0%, rgba(137, 221, 101, 1) 73%, rgba(137, 221, 101, 1))
+        1;
+}
+
+.table {
+    border-collapse: collapse;
+
+    th,
+    td {
+        padding: 26px 45px 30px 48px;
+    }
+
+    .bordered-right {
+        border-right: 1px solid rgba(106, 201, 222, 1);
+    }
+
+    .bordered-bottom {
+        border-bottom: 1px solid rgb(106, 222, 145);
+    }
+}

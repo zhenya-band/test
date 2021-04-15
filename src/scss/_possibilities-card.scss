@@ -1,0 +1,30 @@
+.possibilities-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 285px;
+    min-height: 264px;
+    padding: 33px 22px 44px 22px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(270deg, rgba(106, 201, 222, 1) 0%, rgba(137, 221, 101, 1) 73%, rgba(137, 221, 101, 1));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+    &__title {
+        @include gradient-text;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 73px;
+        text-align: center;
+    }
+
+    &__content {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;
+    }
+}

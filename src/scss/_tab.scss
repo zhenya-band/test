@@ -1,0 +1,31 @@
+.tab {
+    color: #fff;
+
+    &-title {
+        @include gradient-text;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.tab input,
+.tab-content {
+    display: none;
+}
+
+.tab {
+    &::before {
+        content: "\25BA";
+        @include gradient-text;
+    }
+}
+
+.tab-content {
+    padding: 10px 20px;
+}
+
+.tab :checked ~ .tab-content {
+    display: block;
+}

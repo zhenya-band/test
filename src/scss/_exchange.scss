@@ -1,0 +1,44 @@
+.exchange {
+    padding: 260px 0;
+    background: url("../assets/exchange-bg.png");
+    background-size: cover;
+
+    &__title {
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 95px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    &__subtitle {
+        margin-bottom: 65px;
+        font-size: 40px;
+        line-height: 51px;
+        color: #ffffff;
+    }
+
+    &__demo-btn {
+        padding: 20px 47px;
+        margin-right: 25px;
+    }
+
+    &__pricing-btn {
+        padding: 20px 88px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        background: transparent;
+        color: #ffffff;
+        outline: none;
+        border: 1px solid #ffffff;
+        box-sizing: border-box;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

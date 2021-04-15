@@ -1,0 +1,10 @@
+.btn-primary {
+    background: linear-gradient(231.62deg, #6ac9de -0.14%, #89dd65 106.26%);
+    border: none;
+    outline: none;
+    border-radius: 50px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,53 @@
+.header {
+    background: #ffffff;
+    padding: 40px 0;
+
+    &-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-btn {
+        padding: 15px 38px;
+        box-shadow: 0px 8px 25px rgba(101, 221, 156, 0.5);
+    }
+
+    &-lang {
+        option {
+            span {
+                background-image: url("./../assets/uk.png");
+            }
+        }
+    }
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+    &__item {
+        color: #2a342a;
+
+        &:not(:last-child) {
+            margin-right: 57px;
+        }
+    }
+
+    &__select {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 35px;
+        border: none;
+
+        &--active {
+            // color: greenyellow;
+        }
+    }
+
+    &__link {
+    }
+}

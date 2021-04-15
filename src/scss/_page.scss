@@ -1,0 +1,42 @@
+.page {
+    padding-top: 33px;
+    padding-bottom: 28px;
+
+    &__title {
+        position: relative;
+        margin-bottom: 60px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #2a342a;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -2px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 115px;
+            height: 2px;
+            background: #2a342a;
+        }
+    }
+
+    &-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        color: #828282;
+
+        &__item {
+            &--active {
+                @include gradient-text;
+            }
+        }
+    }
+}

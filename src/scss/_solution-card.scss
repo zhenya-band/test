@@ -1,0 +1,56 @@
+.solution-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 387px;
+    padding: 75px 28px 78px 28px;
+    border-radius: 20px;
+
+    &--blue {
+        background: linear-gradient(228.22deg, #12446c 17.42%, #41759e 66.92%, #5287b0 83.39%, #6fa5cf 99.99%);
+    }
+
+    &--red {
+        background: linear-gradient(45deg, #9b1300 23.11%, #ea4000 100.02%);
+    }
+
+    &--green {
+        background: linear-gradient(225deg, #4eba4e 0%, #288d3e 31.28%, #005c2d 100%);
+    }
+
+    &__logo {
+        margin-bottom: 36px;
+    }
+
+    &__title {
+        margin-bottom: 38px;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    &__description {
+        margin-bottom: 53px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    &__btn {
+        padding: 20px 70px;
+        background: #ffffff;
+        border: none;
+        outline: none;
+        border-radius: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

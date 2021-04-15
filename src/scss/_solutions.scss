@@ -1,0 +1,41 @@
+.solutions {
+    padding-top: 156px;
+    padding-bottom: 163px;
+
+    &__title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+
+    &__description {
+        text-align: center;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 60px;
+    }
+
+    &__cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
